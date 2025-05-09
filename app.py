@@ -48,9 +48,9 @@ st.subheader("KPI / Key Matrics")
 
 col1,col2,col3,col4 =st.columns(4)
 with col1:
-    st.metric(label="Total Sales", value=f"{total_sales}")
+    st.metric(label="Total Sales", value=f"${total_sales}")
 with col2:
-    st.metric(label="Gross Income", value=f"{gross_income}")
+    st.metric(label="Gross Income", value=f"${gross_income}")
 with col3:
     st.metric(label="Total Quantity", value=f"{total_quantity}")
 with col4:
